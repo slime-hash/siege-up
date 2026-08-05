@@ -1,40 +1,58 @@
 # Unity generated folders
-[Ll]ibrary/
-[Tt]emp/
-[Oo]bj/
-[Bb]uild/
-[Bb]uilds/
-[Ll]ogs/
-[Uu]ser[Ss]ettings/
-[Mm]emoryCaptures/
-[Rr]ecordings/
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/[Ss]erverData/
+/ExportedObj/
+
+# Unity generated files and local builds
+*.log
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.pidb.meta
+*.pdb
+*.pdb.meta
+*.mdb
+*.mdb.meta
+*.tmp
+*.svd
+*.apk
+*.aab
+*.unitypackage
+*.unitypackage.meta
+*.app
+*.blend1
+*.blend1.meta
+mono_crash.*
+sysinfo.txt
+crashlytics-build.properties
 
 # IDE and OS files
 .vs/
 .vscode/
 .idea/
-*.csproj
-*.sln
-*.suo
-*.user
-*.userprefs
-*.pidb
-*.booproj
-*.tmp
-*.pidb.meta
-*.pdb
-*.mdb
-*.opendb
-*.VC.db
+.consulo/
+.gradle/
+*.DotSettings.user
 .DS_Store
 Thumbs.db
 
-# Crash reports and local builds
-sysinfo.txt
-*.apk
-*.aab
-*.unitypackage
-
-# Addressables generated data
-/ServerData/
+# Unity generated project/editor data
+/[Aa]ssets/Plugins/Editor/JetBrains*
+/[Aa]ssets/AddressableAssetsData/link.xml*
+/[Aa]ssets/AddressableAssetsData/*/*.bin*
+/[Aa]ssets/Unity.VisualScripting.Generated/
+/[Aa]ssets/SceneDependencyCache*
 
